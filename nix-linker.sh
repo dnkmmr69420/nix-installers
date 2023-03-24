@@ -4,6 +4,8 @@
 
 sudo echo "Deleting existing files that have the same name if /usr/local/bin (if you have any)"
 
+sleep 1
+
 sudo rm -f /usr/local/bin/nix
 sudo rm -f /usr/local/bin/nix-build
 sudo rm -f /usr/local/bin/nix-channel
@@ -19,6 +21,8 @@ sudo rm -f /usr/local/bin/nix-shell
 sudo rm -f /usr/local/bin/nix/store
 
 sudo echo "Now creating symlinks from /nix/var/nix/profiles/default/bin to /usr/local/bin"
+
+sleep 1
 
 sudo ln -s /nix/var/nix/profiles/default/bin/nix /usr/local/bin
 sudo ln -s /nix/var/nix/profiles/default/bin/nix-build /usr/local/bin
