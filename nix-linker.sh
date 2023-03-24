@@ -18,7 +18,7 @@ sudo rm -f /usr/local/bin/nix-instantiate
 sudo rm -f /usr/local/bin/nix-prefetch-url
 sudo rm -f /usr/local/bin/nix-search
 sudo rm -f /usr/local/bin/nix-shell
-sudo rm -f /usr/local/bin/nix/store
+sudo rm -f /usr/local/bin/nix-store
 
 sudo echo "Now creating symlinks from /nix/var/nix/profiles/default/bin to /usr/local/bin"
 
