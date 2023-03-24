@@ -41,6 +41,8 @@ XDG_DATA_DIRS="$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share:$XDG
 
 # Nix Uninstallers
 
+## [nix uninstallers github repo](https://github.com/dnkmmr69420/nix-uninstallers)
+
 ## Regular uninstaller for selinux and non selinux systems
 
 ```bash
@@ -52,5 +54,3 @@ wget https://raw.githubusercontent.com/dnkmmr69420/nix-uninstallers/main/regular
 ```bash
 wget https://raw.githubusercontent.com/dnkmmr69420/nix-uninstallers/main/silverblue-nix-uninstaller.sh && chmod a+x ./silverblue-nix-uninstaller.sh && ./silverblue-nix-uninstaller.sh ; rm ./silverblue-nix-uninstaller.sh
 ```
-
-## [nix uninstallers github repo](https://github.com/dnkmmr69420/nix-uninstallers)
