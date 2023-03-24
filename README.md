@@ -30,3 +30,11 @@ Type this command
 ```bash
 sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-app-icons.sh
 ```
+
+## Singleuser
+
+add this to the end of ~/.bashrc
+
+```bash
+XDG_DATA_DIRS="$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share:$XDG_DATA_DIRS"
+```
