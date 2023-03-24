@@ -20,3 +20,13 @@ wget https://raw.githubusercontent.com/dnkmmr69420/nix-with-selinux/main/regular
 ```bash
 wget https://raw.githubusercontent.com/dnkmmr69420/nix-with-selinux/main/silverblue-installer.sh && chmod a+x ./silverblue-installer.sh && ./silverblue-installer.sh ; rm ./silverblue-installer.sh
 ```
+
+# Nix app icons
+
+## Multiuser
+
+Type this command
+
+```bash
+sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-app-icons.sh
+```
