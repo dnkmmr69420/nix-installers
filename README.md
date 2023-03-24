@@ -38,6 +38,14 @@ add this to the end of ~/.bashrc
 ```bash
 XDG_DATA_DIRS="$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share:$XDG_DATA_DIRS"
 ```
+# Nix linker
+
+This script creates links for nix from /nix/var/nix/profiles/default/bin to /usr/local/bin so sudo can run nix commands much more easily
+
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-linker.sh)
+```
 
 # Nix Uninstallers
 
