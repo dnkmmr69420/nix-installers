@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/dnkmmr69420/nix-with-selinux/main/silverb
 Type this command
 
 ```bash
-sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-app-icons.sh
+sudo rm -f /etc/profile.d ; sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-app-icons.sh
 ```
 
 ## Singleuser
@@ -45,6 +45,14 @@ This script creates links for nix from /nix/var/nix/profiles/default/bin to /usr
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-linker.sh)
+```
+
+# Enable nix flakes and nix command
+
+type this command in to enable them for all users
+
+```bash
+sudo rm -f /etc/nix/nix.conf ; sudo wget -P /etc/nix https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix.conf
 ```
 
 # Nix Uninstallers
