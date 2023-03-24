@@ -7,7 +7,7 @@ These are my custom nix installers
 wget https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/regular-installer-no-selinux.sh && chmod a+x ./regular-installer-no-selinux.sh && ./regular-installer-no-selinux.sh ; rm ./regular-installer-no-selinux.sh
 ```
 
-# Installers for SELinux based systems
+# [Installers for SELinux based systems](https://github.com/dnkmmr69420/nix-with-selinux)
 
 ## Regular installer for mutable linux with selinux
 
