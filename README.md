@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/dnkmmr69420/nix-with-selinux/main/silverb
 Type this command
 
 ```bash
-sudo rm -f /etc/profile.d ; sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-app-icons.sh
+sudo rm -f /etc/profile.d/nix-app-icons.sh ; sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix-app-icons.sh
 ```
 
 ## Singleuser
