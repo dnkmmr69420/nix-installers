@@ -16,7 +16,6 @@ sudo rm -f /usr/local/bin/nix-env
 sudo rm -f /usr/local/bin/nix-hash
 sudo rm -f /usr/local/bin/nix-instantiate
 sudo rm -f /usr/local/bin/nix-prefetch-url
-sudo rm -f /usr/local/bin/nix-search
 sudo rm -f /usr/local/bin/nix-shell
 sudo rm -f /usr/local/bin/nix-store
 
@@ -34,7 +33,6 @@ sudo ln -s /nix/var/nix/profiles/default/bin/nix-env /usr/local/bin
 sudo ln -s /nix/var/nix/profiles/default/bin/nix-hash /usr/local/bin
 sudo ln -s /nix/var/nix/profiles/default/bin/nix-instantiate /usr/local/bin
 sudo ln -s /nix/var/nix/profiles/default/bin/nix-prefetch-url /usr/local/bin
-sudo ln -s /nix/var/nix/profiles/default/bin/nix-search /usr/local/bin
 sudo ln -s /nix/var/nix/profiles/default/bin/nix-shell /usr/local/bin
 sudo ln -s /nix/var/nix/profiles/default/bin/nix-store /usr/local/bin
 
