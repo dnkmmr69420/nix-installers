@@ -49,7 +49,7 @@ bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main
 
 # Enable nix flakes and nix command
 
-type this command in to enable them for all users
+type this command in to enable them for all users. WARNING: THIS WILL RESET ANY CONFIGURATION DONE ON /etc/nix.conf
 
 ```bash
 sudo rm -f /etc/nix/nix.conf ; sudo wget -P /etc/nix https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix.conf
