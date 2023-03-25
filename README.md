@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/dnkmmr69420/nix-with-selinux/main/regular
 wget https://raw.githubusercontent.com/dnkmmr69420/nix-with-selinux/main/silverblue-installer.sh && chmod a+x ./silverblue-installer.sh && ./silverblue-installer.sh ; rm ./silverblue-installer.sh
 ```
 
-# Nix app icons
+# [Nix app icons](https://github.com/dnkmmr69420/nix-graphical-app-icon-guide)
 
 ## Multiuser
 
@@ -51,8 +51,17 @@ bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main
 
 type this command in to enable them for all users. WARNING: THIS WILL RESET ANY CONFIGURATION DONE ON /etc/nix.conf
 
+## Multiuser
+
 ```bash
 sudo rm -f /etc/nix/nix.conf ; sudo wget -P /etc/nix https://raw.githubusercontent.com/dnkmmr69420/nix-installers/main/nix.conf
+```
+
+## Singleuser
+
+```bash
+mkdir -p ~/.config/nix
+echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 ```
 
 # Nix Uninstallers
