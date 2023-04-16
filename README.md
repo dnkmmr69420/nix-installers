@@ -1,5 +1,6 @@
 # nix-installers
 These are my custom nix installers
+All updates will happen on my new [github repo](https://github.com/dnkmmr69420/nix-installer-scripts) which combines all of my repos
 
 # Regular Installer
 
